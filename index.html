@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <div
+        style="
+          background-color: black;
+          color: white;
+          padding-top: 7px;
+          padding-bottom: 7px;
+        "
+        class="topBar"
+      >
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            margin-right: 200px;
+            margin-left: 200px;
+          "
+        >
+          <div style="display: flex; gap: 20px; margin-left: 320px">
+            <div style="display: flex; gap: 10px; align-items: center">
+              <div>
+                <img src="/telephone.png" style="height: 20px; width: 20px" />
+              </div>
+              <div
+                style="font-size: 15px; font-weight: bold"
+                class="hover-topBar"
+              >
+                +91-9479609069
+              </div>
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center">
+              <div>
+                <img src="/email.png" style="height: 20px; width: 20px" />
+              </div>
+              <div
+                style="font-size: 15px; font-weight: bold"
+                class="hover-topBar"
+              >
+                sjhrindore@gmail.com
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 20px">
+            <div style="display: flex; gap: 10px">
+              <img src="/social.png" style="height: 20px; width: 20px" />
+              <img src="/facebook.png" style="height: 20px; width: 20px" />
+              <img src="/pinterest.png" style="height: 20px; width: 20px" />
+
+              <img src="/instagram.png" style="height: 20px; width: 20px" />
+            </div>
+            <div style="font-size: 15px; font-weight: bold">Login/Rgister</div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0 0 0;
+            gap: 200px;
+          "
+        >
+          <div>
+            <img src="/ngo-logo.png" style="height: 80px; width: 130px" />
+          </div>
+          <div
+            style="display: flex; gap: 20px; font-size: 16px; font-weight: bold"
+          >
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Donations</div>
+            <div>Events</div>
+            <div>Blog</div>
+            <div>Contact</div>
+            <div>Donor List</div>
+            <div>Success Stories</div>
+            <div>Search</div>
+          </div>
+          <div style="font-size: 30px; color: orange; font-weight: bold">
+            CAMPAIGN
+          </div>
+        </div>
+      </div>
+
+      <div id="main-content">
+        <div
+          style="
+            position: absolute;
+            z-index: 1000;
+            color: white;
+            top: 200px;
+            left: 850px;
+          "
+        >
+          <div style="font-size: 60px; font-weight: bold">DECEASED</div>
+          <div style="margin-left: 90px">
+            <span>Home / </span><span>Deceased</span>
+          </div>
+        </div>
+        <div id="color-overlay"></div>
+        <img src="mainSection.png" style="position: relative; width: 1900px" />
+      </div>
+
+      <div
+        class="form1"
+        style="
+          margin: 70px 400px 0 400px;
+          border: 2px solid #00bdc0;
+          border-top: none;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            background-color: #00bdc0;
+            padding: 10px;
+          "
+        >
+          <div
+            style="
+              color: black;
+              display: flex;
+              align-items: center;
+              font-size: 23px;
+            "
+          >
+            Deceased Required Information
+          </div>
+          <div style="padding: 4px; border: 1px solid white; color: white">
+            Check Status
+          </div>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Deceased Name</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Applicant Father's Name</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Occupation</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Death's Reason</label>
+          </p>
+          <p>
+            <input type=" date" id="d" name="date of birth" style=""padding-right: 90px" />
+            <label>Date Of Birth</label> </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Age</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Country</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>State</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Address</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>District</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Pin Code</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Police Station</label>
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>FIR Number</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>is jandhan account used by the Deceased ?</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>is the credit card used by the deceased ?</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 220px" />
+            <label>how many credit card were used by the deceased ?</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 220px" />
+            <label>is the debit card used by the deceased ?</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 220px" />
+            <label>how many debit card were used by the deceased ?</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 220px" />
+            <label>how many bank account were used by the deceased ?</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 220px" />
+            <label>which bank name ?</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 220px" />
+            <label>Was the deceased involved in the central / state government scheme?</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 220px" />
+            <label>Which Scheme ?</label>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="form2"
+        style="
+          margin: 70px 400px 0 400px;
+          border: 2px solid #00bdc0;
+          border-top: none;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            background-color: #00bdc0;
+            padding: 10px;
+          "
+        >
+          <div
+            style="
+              color: black;
+              display: flex;
+              align-items: center;
+              font-size: 23px;
+            "
+          >
+            Attach Documents Of Deceased
+          </div>
+          <div style="padding: 4px; border: 1px solid white; color: white">
+            Check Status
+          </div>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Death Certificate</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Aadhar card</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Voter Id Card</label>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="form3"
+        style="
+          margin: 70px 400px 0 400px;
+          border: 2px solid #00bdc0;
+          border-top: none;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            background-color: #00bdc0;
+            padding: 10px;
+          "
+        >
+          <div
+            style="
+              color: black;
+              display: flex;
+              align-items: center;
+              font-size: 23px;
+            "
+          >
+            Relation With Deceased
+          </div>
+          <div style="padding: 4px; border: 1px solid white; color: white">
+            Check Status
+          </div>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Relation With Deceased</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Name</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>House Number</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Street</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Address</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Pin Code</label>
+          </p>
+        </div>
+        <div style="display: flex; gap: 40px; margin-left: 100px">
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Mobile Number</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>email</label>
+          </p>
+          <p>
+            <input placeholder=" " style="padding-right: 90px" />
+            <label>Volunteer Id Number</label>
+          </p>
+        </div>
+      </div>
+
+      <div class="bottomBar" style="color: #a8a8a8">
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            padding-top: 90px;
+            gap: 80px;
+          "
+        >
+          <div>
+            <img src="/ngo-logo.png" style="margin-bottom: 20px" />
+            <div>
+              We are a non-profit organisation in <br />
+              Indore that works towards supporting <br />
+              underprivileged children reach their full <br />potential -
+              physical, mental as well as <br />emotional.
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                font-size: 22px;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 20px;
+              "
+            >
+              Recent Posts
+            </div>
+            <div style="display: flex; gap: 20px; margin-bottom: 20px">
+              <div>
+                <img src="/bottom1.jpg" style="height: 80px; width: 80px" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 10px">
+                <div>
+                  These tried for way joy <br />
+                  wrote witty
+                </div>
+                <div>27 July 2020</div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 20px">
+              <div>
+                <img src="/bottom2.jpg" style="height: 80px; width: 80px" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 10px">
+                <div>
+                  These tried for way joy <br />
+                  wrote witty
+                </div>
+                <div>27 July 2020</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                font-size: 22px;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 20px;
+              "
+            >
+              Contact Us
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 20px">
+              <div style="display: flex; gap: 10px">
+                <!-- <i class="fa-solid fa-house" style="color: #ffd43b"></i> -->
+                <i class="fa fa-home" style="color: #fcb11a"></i>
+                <div>Indore, MP, India</div>
+              </div>
+              <div style="display: flex; gap: 10px">
+                <i class="fa fa-phone" style="color: #fcb11a"></i>
+                <div>+91-9759754444</div>
+              </div>
+              <div style="display: flex; gap: 10px">
+                <i class="fa fa-envelope" style="color: #fcb11a"></i>
+                <div>garivtWebsiteDeveloper@gmail.com</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                font-size: 22px;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 20px;
+              "
+            >
+              Subscribe
+            </div>
+            <div style="margin-bottom: 20px;">
+              join our newsletter to get latest update <br />
+              form us.
+            </div>
+            <div style="display: flex">
+              <input type="text" />
+              <div><i class="fa fa-paper-plane fa-2xl" style="color: #fcb11a; "></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
